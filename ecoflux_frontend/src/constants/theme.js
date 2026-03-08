@@ -1,0 +1,17 @@
+export const G = {
+  bg: "#050f0a",
+  bgCard: "#0b1a14",
+  bgPanel: "#0f231b",
+  blue: "hsl(183, 75%, 40%)",
+  blueDim: "hsl(183, 75%, 23%)",
+  blueGlow: "hsla(183, 75%, 40%, 0.15)",
+  cyan: "hsl(183, 75%, 23%)",
+  cyanDim: "hsl(183, 75%, 15%)",
+  cyanGlow: "hsla(183, 75%, 23%, 0.12)",
+  amber: "#00e87a",
+  red: "#ef4444",
+  text: "#f8fafc",
+  textMuted: "#94a3b8",
+  border: "rgba(0, 232, 122, 0.1)",
+  borderBlue: "hsla(183, 75%, 40%, 0.2)",
+};

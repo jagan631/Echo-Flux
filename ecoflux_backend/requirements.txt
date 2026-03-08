@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+sqlalchemy
+redis
+httpx
+pydantic
+pydantic-settings
+alembic
+loguru
+python-dotenv
+psycopg2-binary
+supabase
