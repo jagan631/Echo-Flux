@@ -8,24 +8,24 @@ export function LandingPage({ onNext }) {
   return (
     <div style={{ minHeight: "100vh", background: "transparent", position: "relative" }}>
       {/* Radial Glow for Hero Focal Point */}
-      <div style={{ 
-        position: "absolute", 
-        top: "15%", 
-        left: "50%", 
-        transform: "translateX(-50%)", 
-        width: "1000px", 
-        height: "600px", 
-        background: `radial-gradient(ellipse at center, ${G.blueGlow} 0%, transparent 70%)`, 
+      <div style={{
+        position: "absolute",
+        top: "15%",
+        left: "50%",
+        transform: "translateX(-50%)",
+        width: "1000px",
+        height: "600px",
+        background: `radial-gradient(ellipse at center, ${G.blueGlow} 0%, transparent 70%)`,
         pointerEvents: "none",
         zIndex: 0
       }} />
 
       {/* Hero Section */}
-      <div style={{ 
-        position: "relative", 
-        paddingTop: "160px", 
-        paddingBottom: "100px", 
-        textAlign: "center", 
+      <div style={{
+        position: "relative",
+        paddingTop: "160px",
+        paddingBottom: "100px",
+        textAlign: "center",
         zIndex: 1
       }}>
         <div style={{ maxWidth: "900px", margin: "0 auto" }} className="fade-up">
@@ -34,21 +34,21 @@ export function LandingPage({ onNext }) {
             <span style={{ fontSize: "14px", fontWeight: 800, letterSpacing: "3px" }}>SUSTAINABLE AI INFRASTRUCTURE</span>
           </div>
 
-          <h1 className="slide-up stagger-2" style={{ 
-            fontSize: "84px", 
-            fontWeight: 900, 
-            lineHeight: 1.1, 
+          <h1 className="slide-up stagger-2" style={{
+            fontSize: "84px",
+            fontWeight: 900,
+            lineHeight: 1.1,
             marginBottom: "24px",
             letterSpacing: "-2px"
           }}>
-            EcoFlux Intelligence <br /> 
+            EcoFlux Intelligence <br />
             <span style={{ color: G.blue }}>Sustainability</span> Audit
           </h1>
 
-          <p className="slide-up stagger-3" style={{ 
-            fontSize: "20px", 
-            color: G.text, 
-            maxWidth: "600px", 
+          <p className="slide-up stagger-3" style={{
+            fontSize: "20px",
+            color: G.text,
+            maxWidth: "600px",
             margin: "0 auto 40px",
             lineHeight: 1.6,
             opacity: 0.9
@@ -64,14 +64,14 @@ export function LandingPage({ onNext }) {
         </div>
 
         {/* Floating Stats Area */}
-        <Card glass glossy depth neon style={{ 
-          margin: "100px auto 0", 
-          padding: "40px", 
-          borderRadius: "32px", 
-          width: "100%", 
-          maxWidth: "850px", 
-          display: "grid", 
-          gridTemplateColumns: "repeat(3, 1fr)", 
+        <Card glass glossy depth neon style={{
+          margin: "100px auto 0",
+          padding: "40px",
+          borderRadius: "32px",
+          width: "100%",
+          maxWidth: "850px",
+          display: "grid",
+          gridTemplateColumns: "repeat(3, 1fr)",
           gap: "24px",
           textAlign: "center",
           border: "1px solid rgba(255,255,255,0.08)",
@@ -115,7 +115,7 @@ export function LandingPage({ onNext }) {
           <Tag label="THE PROBLEM" color="#ef4444" />
           <h2 style={{ fontSize: "48px", fontWeight: 900, marginTop: "20px", letterSpacing: "-1.5px" }}>Infrastructure <span style={{ color: G.blue }}>Efficiency Gap</span></h2>
         </div>
-        
+
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "32px" }}>
           <Card glass glossy depth neon style={{ padding: "48px" }}>
             <div style={{ width: "56px", height: "56px", background: `${G.blue}15`, borderRadius: "12px", display: "flex", alignItems: "center", justifyContent: "center", marginBottom: "24px" }}>
