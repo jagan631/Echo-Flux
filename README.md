@@ -856,11 +856,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-**Thiru Selvam**
+**Jagan Anandhan**
 
-- GitHub: [@Thiru-Selvam-06](https://github.com/Thiru-Selvam-06)
-- LinkedIn: [Your LinkedIn Profile]
-- Email: your.email@example.com
+- GitHub: [@jagan631](https://github.com/jagan631)
+- LinkedIn: [https://www.linkedin.com/in/jagan-anandhan-91b96127a/]
+- Email: [jagananandhan631@gmail.com]
 
 ---
 
